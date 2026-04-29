@@ -30,6 +30,7 @@ public class ProductController {
     @GetMapping("/{id}")
     public ResponseEntity<?> getProductsById(@PathVariable  Long id){
         ProductDto getProductById = service.getProductsById(id);
+        System.out.println(getProductById)
         if(getProductById != null)
             return new ResponseEntity<>(getProductById,HttpStatus.OK);
         else
