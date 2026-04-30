@@ -19,7 +19,7 @@ public class ProductController {
 
     public ProductController(ProductService service){
         this.service = service;
-    }
+    } 
 
     @PostMapping
     public ResponseEntity<ProductDto> createProduct(@RequestBody ProductDto productDto){
