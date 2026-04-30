@@ -1,6 +1,6 @@
 package com.example.ProductInventorySystem.payload;
 
-import java.math.BigDecimal;
+import java.math.BigDecimal; 
 
 public class ProductDto {
 
